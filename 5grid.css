@@ -290,27 +290,27 @@ body{
 }
 
 .container .item:nth-child(2):hover::before{
-    background: url(../dino.png)no-repeat center center/cover;
+    background: url(dino.png)no-repeat center center/cover;
 }
 
 .container .item:nth-child(3):hover::before{
-    background: url(../dino.png)no-repeat center center/cover;
+    background: url(dino.png)no-repeat center center/cover;
 }
 
 .container .item:nth-child(4):hover::before{
-    background: url(../dino.png)no-repeat center center/cover;
+    background: url(dino.png)no-repeat center center/cover;
 }
 
 .container .item:nth-child(5):hover::before{
-    background: url(../dino.png)no-repeat center center/cover;
+    background: url(dino.png)no-repeat center center/cover;
 }
 
 .container .item:nth-child(6):hover::before{
-    background: url(../dino.png)no-repeat center center/cover;
+    background: url(dino.png)no-repeat center center/cover;
 }
 
 .container .item:nth-child(7):hover::before{
-    background: url(../dino.png)no-repeat center center/cover;
+    background: url(dino.png)no-repeat center center/cover;
 }
 
 .container .item:nth-child(8):hover::before{
@@ -318,15 +318,15 @@ body{
 }
 
 .container .item:nth-child(9):hover::before{
-    background: url(../dino.png)no-repeat center center/cover;
+    background: url(dino.png)no-repeat center center/cover;
 }
 
 .container .item:nth-child(10):hover::before{
-    background: url(../dino.png)no-repeat center center/cover;
+    background: url(dino.png)no-repeat center center/cover;
 }
 
 .container .item:nth-child(11):hover::before{
-    background: url(../dino.png)no-repeat center center/cover;
+    background: url(dino.png)no-repeat center center/cover;
 }
 
 #rcpModal, #dronesModal, #lfsModal, #hackModal, #gliderModal, #rcpcModal, #airshowModal, #boeingModal, #teamModal, #moreModal{
