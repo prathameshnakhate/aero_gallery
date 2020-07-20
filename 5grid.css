@@ -52,7 +52,7 @@ body{
 .container{
     width: 1084.36px;
     height: 870px;
-    margin: 158px 125px 170px 53.95px;
+    margin: 158px auto 170px auto;
     display: grid;
     grid-template-rows: repeat(4, 197.39px);
     grid-template-columns: repeat(5, 197.39px);
