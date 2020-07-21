@@ -294,47 +294,39 @@ body{
 }
 
 .container .item:nth-child(3):hover::before{
-    content: "";
-    background: url(drone1.jpg)no-repeat center center/cover;
+    background: url(drone1.jpg) no-repeat center center/cover;
 }
 
 .container .item:nth-child(4):hover::before{
-    content: "";
-    background: url(hackathon1.jpg)no-repeat center center/cover;
+    background: url(hackathon1.jpg) no-repeat center center/cover;
 }
 
 .container .item:nth-child(5):hover::before{
-    background: url(lfs1.jpg)no-repeat center center/cover;
+    background: url(lfs1.jpg) no-repeat center center/cover;
 }
 
 .container .item:nth-child(6):hover::before{
-    content: "";
-    background: url(gliderw1.jpg)no-repeat center center/cover;
+    background: url(gliderw1.jpg) no-repeat center center/cover;
 }
 
 .container .item:nth-child(7):hover::before{
-    content: "";
-    background: url(rcpc1.jpg)no-repeat center center/cover;
+    background: url(rcpc1.jpg) no-repeat center center/cover;
 }
 
 .container .item:nth-child(8):hover::before{
-    content: "";
-    background: url(airshow1.jpg)no-repeat center center/cover;
+    background: url(airshow1.jpg) no-repeat center center/cover;
 }
 
 .container .item:nth-child(9):hover::before{
-    content: "";
-    background: url(boeingc1.jpg)no-repeat center center/cover;
+    background: url(boeingc1.jpg) no-repeat center center/cover;
 }
 
 .container .item:nth-child(10):hover::before{
-    content: "";
-    background: url(qfs1.jpg)no-repeat center center/cover;
+    background: url(qfs1.jpg) no-repeat center center/cover;
 }
 
 .container .item:nth-child(11):hover::before{
-    content: "";
-    background: url(theclub1.jpg)no-repeat center center/cover;
+    background: url(theclub1.jpg) no-repeat center center/cover;
 }
 
 #rcpModal, #dronesModal, #lfsModal, #hackModal, #gliderModal, #rcpcModal, #airshowModal, #boeingModal, #clubModal, #qfsModal{
