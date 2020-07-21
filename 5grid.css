@@ -290,8 +290,7 @@ body{
 }
 
 .container .item:nth-child(2):hover::before{
-    content: "";
-    background: url(rcp1.jpg)no-repeat center center/cover;
+    background: url(rcp1.jpg) no-repeat center center/cover;
 }
 
 .container .item:nth-child(3):hover::before{
