@@ -96,6 +96,7 @@ body{
     background: linear-gradient(white,white);
     width: 197.39px;
     height: 197.39px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .item:nth-child(3){
@@ -114,6 +115,7 @@ body{
     background: linear-gradient(rgb(55, 2, 110),rgb(55, 2, 110));
     width: 418.36px;
     height: 197.39px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .item:nth-child(4){
@@ -121,6 +123,7 @@ body{
     letter-spacing: 0.88px;
     color: black;
     font-size: 30px;
+    
 }
 
 .item:nth-child(4)::before{
@@ -131,6 +134,7 @@ body{
     background: linear-gradient(rgb(86,0,149),rgb(86,0,149));
     width: 197.39px;
     height: 197.39px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .item:nth-child(5){
@@ -149,6 +153,7 @@ body{
     background: linear-gradient(rgb(1, 172, 190),rgb(1, 172, 190));
     width: 197.39px;
     height: 418.36px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .item:nth-child(6){
@@ -167,6 +172,7 @@ body{
     background: linear-gradient(rgb(1, 172, 190),rgb(1, 172, 190));
     width: 197.39px;
     height: 197.39px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .item:nth-child(7){
@@ -185,6 +191,7 @@ body{
     background: linear-gradient(rgb(55, 2, 110),rgb(55, 2, 110));
     width: 197.39px;
     height: 197.39px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .item:nth-child(8){
@@ -202,6 +209,7 @@ body{
     background: linear-gradient(rgb(86,0,149),rgb(86,0,149));
     width: 197.39px;
     height: 197.39px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .item:nth-child(9){
@@ -220,6 +228,7 @@ body{
     background: linear-gradient(rgb(1, 172, 190),rgb(1, 172, 190));
     width: 197.39px;
     height: 197.39px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 
@@ -238,6 +247,7 @@ body{
     background: linear-gradient(rgb(55, 2, 110),rgb(55, 2, 110));
     width: 197.39px;
     height: 197.39px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .item:nth-child(11){
@@ -256,6 +266,7 @@ body{
     background: linear-gradient(white,white);
     width: 639.53px;
     height: 197.39px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .container .item #gallery{
@@ -290,43 +301,43 @@ body{
 }
 
 .container .item:nth-child(2):hover::before{
-    background: url(rcp1.jpg) no-repeat center center/cover;
+    background: url(../rcp1.jpg)no-repeat center center/cover;
 }
 
 .container .item:nth-child(3):hover::before{
-    background: url(drone1.jpg) no-repeat center center/cover;
+    background: url(../drone1.jpg)no-repeat center center/cover;
 }
 
 .container .item:nth-child(4):hover::before{
-    background: url(lfs1.jpg) no-repeat center center/cover;
+    background: url(../lfs1.jpg)no-repeat center center/cover;
 }
 
 .container .item:nth-child(5):hover::before{
-    background: url(hackathon1.jpg) no-repeat center center/cover;
+    background: url(../hackathon1.jpg)no-repeat center center/cover;
 }
 
 .container .item:nth-child(6):hover::before{
-    background: url(gliderw1.jpg) no-repeat center center/cover;
+    background: url(../gliderw1.jpg)no-repeat center center/cover;
 }
 
 .container .item:nth-child(7):hover::before{
-    background: url(rcpc1.jpg) no-repeat center center/cover;
+    background: url(../rcpc1.jpg)no-repeat center center/cover;
 }
 
 .container .item:nth-child(8):hover::before{
-    background: url(airshow1.jpg) no-repeat center center/cover;
+    background: url(../airshow1.jpg)no-repeat center center/cover;
 }
 
 .container .item:nth-child(9):hover::before{
-    background: url(boeingc1.jpg) no-repeat center center/cover;
+    background: url(../boeingc1.jpg)no-repeat center center/cover;
 }
 
 .container .item:nth-child(10):hover::before{
-    background: url(qfs1.jpg) no-repeat center center/cover;
+    background: url(../qfs1.jpg)no-repeat center center/cover;
 }
 
 .container .item:nth-child(11):hover::before{
-    background: url(theclub1.jpg) no-repeat center center/cover;
+    background: url(../theclub1.jpg)no-repeat center center/cover;
 }
 
 #rcpModal, #dronesModal, #lfsModal, #hackModal, #gliderModal, #rcpcModal, #airshowModal, #boeingModal, #clubModal, #qfsModal{
@@ -377,18 +388,24 @@ body{
 
 /* footer */
 
- /* #contact{
+form{
+    background-color: #01ACBE;
+}
+
+  #contact{
     padding-top: 5vh;
     padding-left: 6vw;
     font-family: Arial, Helvetica, sans-serif;
     font-size:large;
     font-weight: bold;
   }
-  #wh{
+  .wh{
+    background-color: #01ACBE;    
     text-decoration: none;
     color:white;
   }
   #social{
+    background-color: #01ACBE;    
     font-family: Arial, Helvetica, sans-serif;
     font-size:large;
     font-weight: bold;
@@ -406,7 +423,7 @@ body{
   
   /* Clear floats after the columns */
 
-   /* .row:after {
+    .row:after {
     content: "";
     display: table;
     clear: both;
@@ -447,7 +464,8 @@ body{
    
     color: white;}
 
-    #info{
+    #info1{
+      background-color: #01ACBE;  
       padding-top: 2vh;
       padding-left: 2vw;
       font-family: Arial, Helvetica, sans-serif;
@@ -455,6 +473,7 @@ body{
       font-weight: bold;
     }
     #adress{
+      background-color: #01ACBE;  
       padding-top: 1vh;
       padding-left: 3vw;
       font-family: Arial, Helvetica, sans-serif;
@@ -462,6 +481,7 @@ body{
     }
    
     #mail{
+      background-color: #01ACBE;  
       padding-top: 1vw;
       padding-left: 2vw;
       font-family: Arial, Helvetica, sans-serif;
@@ -477,11 +497,11 @@ body{
           padding-top: 0vh;
           padding-left: 0vw;
         font-size: 10px;}
-        #info{
+        #info1{
           padding-top: 4vh;
           padding-left: 1vw;
           font-size:10px;}
-          #social{
+          #social{  
             padding-top: 8vw;
             font-size:small;
           }}
@@ -495,4 +515,4 @@ body{
             width :100%;
             height:100px;
           }
-        }  */
+        }  
